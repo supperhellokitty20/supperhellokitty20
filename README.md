@@ -2,7 +2,7 @@
 
 # Hi, I'm qtduck 👋
 
-### System Administrator · Security Researcher · CTF Player
+### Pentester · Security Researcher · CTF Player
 
 [![Published CVEs](https://img.shields.io/badge/Published_CVEs-5-7c3aed?style=for-the-badge)](#published-security-research)
 [![Security Research](https://img.shields.io/badge/Focus-Security_Research-0ea5e9?style=for-the-badge)](#published-security-research)
