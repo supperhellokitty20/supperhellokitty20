@@ -2,10 +2,10 @@
 
 # Hi, I'm qtduck 👋
 
-### Pentester · Security Researcher · CTF Player
+### System Administrator · Security Researcher · CTF Player
 
 [![Published CVEs](https://img.shields.io/badge/Published_CVEs-5-7c3aed?style=for-the-badge)](#published-security-research)
-[![Security Research](https://img.shields.io/badge/Focus-Security_Research-0ea5e9?style=for-the-badge)](#published-security-research)
+[![Security Acknowledgements](https://img.shields.io/badge/Security_Acknowledgements-1-10b981?style=for-the-badge)](#security-acknowledgements)
 [![CTF Team](https://img.shields.io/badge/CTF_Team-ResetSec-ef4444?style=for-the-badge)](https://ctftime.org/team/266022)
 
 I build and operate systems, investigate security flaws, and enjoy turning curious observations into responsible disclosures.
@@ -28,6 +28,16 @@ The following vulnerabilities were responsibly reported and publicly disclosed. 
 | **CVE-2026-49246** | [Jellyfin](https://github.com/jellyfin/jellyfin) | Potential MKV attachment filename path traversal to RCE | **Low** | [GHSA-f47c-m7gr-q92j](https://github.com/jellyfin/jellyfin/security/advisories/GHSA-f47c-m7gr-q92j) |
 
 > CVE-2026-55420 was reported to Discourse through HackerOne by [`fizzi`](https://hackerone.com/fizzi). The public GitHub advisory does not list reporter credits.
+
+## 🔎 Security Acknowledgements
+
+Publicly fixed security reports that do not have a CVE assignment.
+
+| Project | Finding | Fixed in | Public acknowledgement | Fix |
+|:---|:---|:---:|:---:|:---:|
+| [LimeSurvey](https://github.com/LimeSurvey/LimeSurvey) | Issue #20495: Unrestricted `getConfig()` access in the Twig sandbox | **6.17.4** | [Release notes](https://github.com/LimeSurvey/LimeSurvey/blob/master/docs/release_notes.txt#L252) | [PR #4917](https://github.com/LimeSurvey/LimeSurvey/pull/4917) · [Commit](https://github.com/LimeSurvey/LimeSurvey/commit/345e6858a6533dfb5d32ed1bf48c5ad42435f7af) |
+
+> LimeSurvey publicly thanked [`supperhellokitty20`](https://github.com/supperhellokitty20) for reporting this issue.
 
 ## 🔐 Responsible Disclosure
 
