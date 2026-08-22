@@ -4,7 +4,7 @@
 
 ### System Administrator · Security Researcher · CTF Player
 
-[![Published CVEs](https://img.shields.io/badge/Published_CVEs-6-7c3aed?style=for-the-badge)](#published-security-research)
+[![Published CVEs](https://img.shields.io/badge/Published_CVEs-7-7c3aed?style=for-the-badge)](#published-security-research)
 [![Security Acknowledgements](https://img.shields.io/badge/Security_Acknowledgements-1-10b981?style=for-the-badge)](#security-acknowledgements)
 [![CTF Team](https://img.shields.io/badge/CTF_Team-ResetSec-ef4444?style=for-the-badge)](https://ctftime.org/team/266022)
 
@@ -21,6 +21,7 @@ The following vulnerabilities were responsibly reported and publicly disclosed. 
 
 | CVE | Project | Finding | Severity | Advisory / reference |
 |:---|:---|:---|:---:|:---:|
+| **CVE-2026-12946** | [Langflow](https://github.com/langflow-ai/langflow) | Authenticated RCE via CUGA CodeAgent Python sandbox escape | **Critical** | [IBM Security Bulletin](https://www.ibm.com/support/pages/node/7278928) |
 | **CVE-2026-47727** | [Trilium](https://github.com/TriliumNext/Trilium) | Authenticated RCE via `shareTemplate` safe-import bypass and EJS SSTI | **High** | [GHSA-c26q-6pwv-wf25](https://github.com/TriliumNext/Trilium/security/advisories/GHSA-c26q-6pwv-wf25) |
 | **CVE-2026-55420** | [Discourse](https://github.com/discourse/discourse) | Remote code execution via PDF uploads | **High** | [GHSA-7wq5-jgww-5rw3](https://github.com/discourse/discourse/security/advisories/GHSA-7wq5-jgww-5rw3) |
 | **CVE-2026-39251** | [tmux](https://github.com/tmux/tmux) | Heap overflow in `sixel_print_add` affecting versions 3.4–3.6a | **Unrated** | [Fix commit](https://github.com/tmux/tmux/commit/95e40115a2cedbd1a0bd29fb58e4a66e5ab01ea1) |
