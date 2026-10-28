@@ -31,6 +31,13 @@ The following vulnerabilities were responsibly reported and publicly disclosed. 
 
 > CVE-2026-55420 was reported to Discourse through HackerOne by [`fizzi`](https://hackerone.com/fizzi). The public GitHub advisory does not list reporter credits.
 
+## 🔒 Draft Security Advisories
+
+| CVE | Project | Finding | Severity | Status | Advisory / reference |
+|:---|:---|:---|:---:|:---:|:---:|
+| **CVE-2026-53774** | [Coolify](https://github.com/coollabsio/coolify) | Authenticated RCE via `docker_registry_image_name` / `docker_registry_image_tag` validation bypass | **Critical** | 🔒 Draft | [GHSA-wxv6-rrf6-qcmq](https://github.com/coollabsio/coolify/security/advisories/GHSA-wxv6-rrf6-qcmq) |
+| **CVE-2026-53773** | [Coolify](https://github.com/coollabsio/coolify) | Authenticated RCE via `git_branch` validation bypass | **Critical** | 🔒 Draft | [GHSA-pw8j-2hpq-95rg](https://github.com/coollabsio/coolify/security/advisories/GHSA-pw8j-2hpq-95rg) |
+
 ## 🔎 Security Acknowledgements
 
 Publicly fixed security reports that do not have a CVE assignment.
