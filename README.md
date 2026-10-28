@@ -4,7 +4,7 @@
 
 ### System Administrator · Security Researcher · CTF Player
 
-[![Published CVEs](https://img.shields.io/badge/Published_CVEs-7-7c3aed?style=for-the-badge)](#published-security-research)
+[![Published CVEs](https://img.shields.io/badge/Published_CVEs-9-7c3aed?style=for-the-badge)](#published-security-research)
 [![Security Acknowledgements](https://img.shields.io/badge/Security_Acknowledgements-1-10b981?style=for-the-badge)](#security-acknowledgements)
 [![CTF Team](https://img.shields.io/badge/CTF_Team-ResetSec-ef4444?style=for-the-badge)](https://ctftime.org/team/266022)
 
@@ -21,6 +21,8 @@ The following vulnerabilities were responsibly reported and publicly disclosed. 
 
 | CVE | Project | Finding | Severity | Advisory / reference |
 |:---|:---|:---|:---:|:---:|
+| **CVE-2026-53774** | [Coolify](https://github.com/coollabsio/coolify) | Authenticated RCE via `docker_registry_image_name` / `docker_registry_image_tag` validation bypass | **Critical** | [GHSA-wxv6-rrf6-qcmq](https://github.com/coollabsio/coolify/security/advisories/GHSA-wxv6-rrf6-qcmq) |
+| **CVE-2026-53773** | [Coolify](https://github.com/coollabsio/coolify) | Authenticated RCE via `git_branch` validation bypass | **Critical** | [GHSA-pw8j-2hpq-95rg](https://github.com/coollabsio/coolify/security/advisories/GHSA-pw8j-2hpq-95rg) |
 | **CVE-2026-12946** | [Langflow](https://github.com/langflow-ai/langflow) | Authenticated RCE via CUGA CodeAgent Python sandbox escape | **Critical** | [IBM Security Bulletin](https://www.ibm.com/support/pages/node/7278928) |
 | **CVE-2026-47727** | [Trilium](https://github.com/TriliumNext/Trilium) | Authenticated RCE via `shareTemplate` safe-import bypass and EJS SSTI | **High** | [GHSA-c26q-6pwv-wf25](https://github.com/TriliumNext/Trilium/security/advisories/GHSA-c26q-6pwv-wf25) |
 | **CVE-2026-55420** | [Discourse](https://github.com/discourse/discourse) | Remote code execution via PDF uploads | **High** | [GHSA-7wq5-jgww-5rw3](https://github.com/discourse/discourse/security/advisories/GHSA-7wq5-jgww-5rw3) |
@@ -30,13 +32,6 @@ The following vulnerabilities were responsibly reported and publicly disclosed. 
 | **CVE-2026-49246** | [Jellyfin](https://github.com/jellyfin/jellyfin) | Potential MKV attachment filename path traversal to RCE | **Low** | [GHSA-f47c-m7gr-q92j](https://github.com/jellyfin/jellyfin/security/advisories/GHSA-f47c-m7gr-q92j) |
 
 > CVE-2026-55420 was reported to Discourse through HackerOne by [`fizzi`](https://hackerone.com/fizzi). The public GitHub advisory does not list reporter credits.
-
-## 🛡️ Coolify Security Research
-
-| CVE | Project | Finding | Severity | Advisory / reference |
-|:---|:---|:---|:---:|:---:|
-| **CVE-2026-53774** | [Coolify](https://github.com/coollabsio/coolify) | Authenticated RCE via `docker_registry_image_name` / `docker_registry_image_tag` validation bypass | **Critical** | [GHSA-wxv6-rrf6-qcmq](https://github.com/coollabsio/coolify/security/advisories/GHSA-wxv6-rrf6-qcmq) |
-| **CVE-2026-53773** | [Coolify](https://github.com/coollabsio/coolify) | Authenticated RCE via `git_branch` validation bypass | **Critical** | [GHSA-pw8j-2hpq-95rg](https://github.com/coollabsio/coolify/security/advisories/GHSA-pw8j-2hpq-95rg) |
 
 ## 🔎 Security Acknowledgements
 
